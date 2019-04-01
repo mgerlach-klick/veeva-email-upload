@@ -1,0 +1,35 @@
+{
+    "version": "2019-04-01",
+    "file": "email/Tresiba® - Levemir-Tresiba Conversion template.html",
+
+    "name__v": "Tresiba® - Levemir-Tresiba Conversion template",
+    "product__v": "cholecap",
+    "country__v": "unitedStates",
+    "lifecycle__v": "Approved Email",
+    "type__v": "Email Template",
+    "from_name__v": "",
+    "from_address__v": "",
+    "reply_to_name__v": "",
+    "reply_to_address__v": "",
+    "template_subject__v": "",
+    "document_id": null,
+    "restrict_fragments_by_product__v": true,
+
+
+    "relations": [
+        {
+            "file": "email/Tresiba® - Formulary Coverage fragment.html",
+
+            "name__v": "Tresiba® - Formulary Coverage fragment",
+            "type__v": "Email Fragment",
+            "document_id": null
+        },
+        {
+            "file": "email/Tresiba® - Overview fragment.html",
+
+            "name__v": "Tresiba® - Overview fragment",
+            "type__v": "Email Fragment",
+            "document_id": null
+        }
+    ]
+}
