@@ -1,8 +1,8 @@
 {
     "version": "2019-04-01",
-    "file": "email/Tresiba® - Levemir-Tresiba Conversion template.html",
+    "filepath": "email/Tresiba® - Levemir-Tresiba Conversion template.html",
 
-    "name__v": "Tresiba® - Levemir-Tresiba Conversion template",
+    "name__v": "MAXTEST Tresiba® - Levemir-Tresiba Conversion template",
     "product__v": "cholecap",
     "country__v": "unitedStates",
     "lifecycle__v": "Approved Email",
@@ -11,23 +11,23 @@
     "from_address__v": "mgerlach@klick.com",
     "reply_to_name__v": "Maximausi",
     "reply_to_address__v": "mgerlach@klick.com",
-    "template_subject__v": "Why Max rocks; A treatise",
+    "subject__v": "Why Max rocks; A treatise",
     "document_id": null,
-    "restrict_fragments_by_product__v": true,
+    "restrict_fragments_by_product__v": "true",
 
 
     "relations": [
         {
-            "file": "email/Tresiba® - Formulary Coverage fragment.html",
+            "filepath": "email/Tresiba® - Formulary Coverage fragment.html",
 
-            "name__v": "Tresiba® - Formulary Coverage fragment",
+            "name__v": "MAXTEST Tresiba® - Formulary Coverage fragment",
             "type__v": "Email Fragment",
             "document_id": null
         },
         {
-            "file": "email/Tresiba® - Overview fragment.html",
+            "filepath": "email/Tresiba® - Overview fragment.html",
 
-            "name__v": "Tresiba® - Overview fragment",
+            "name__v": "MAXTEST Tresiba® - Overview fragment",
             "type__v": "Email Fragment",
             "document_id": null
         }
