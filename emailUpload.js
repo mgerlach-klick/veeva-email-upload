@@ -95,6 +95,20 @@ var createEmailTemplate = function (emailTemplate) {
     return creationPromise;
 }
 
+var createEmailFragment= function (fragmentTemplate) {
+    // delete emailTemplate.document_id;
+    // console.log(emailTemplate)
+    var creationPromise = vault.createDocument(emailTemplate);
+    return creationPromise;
+}
+
+var linkEmailFragment = function(templateID, fragmentID) {
+
+}
+
+var saveUpdatedJSON = function(emailTemplate) {
+
+}
 //////////
 // Main //
 //////////
