@@ -39,5 +39,9 @@ Currently, this project only uploads an email template. To get even this far, yo
 - Once uploaded, set the document ID and write the JSON file back to disk
 - If the data file entries have a document ID, update those documents instead of creating new ones
 
+Alexandra adds:
+- Upload promotional piece linked to 1 email fragment
+- Upload template fragment linked to the template
+
 # Project Owner
 The lovely [Alexandra Nikitina](https://genome.klick.com/user/index.html#/5675)
