@@ -98,7 +98,7 @@ var createEmailTemplate = function (emailTemplate) {
 var createEmailFragment= function (fragmentTemplate) {
     // delete emailTemplate.document_id;
     // console.log(emailTemplate)
-    var creationPromise = vault.createDocument(emailTemplate);
+    var creationPromise = vault.createDocument(fragmentTemplate);
     return creationPromise;
 }
 
@@ -124,7 +124,7 @@ var normalizedEmailData = normalizeData(emailData)
 
 vault.authenticate(secret)
     .then(function() {
-        return createEmailTemplate(normalizedEmailData)
+        return createEmailTemplate(normalizedEmailData);
     }).then( ret => { console.log(ret); return ret})
     .catch(function(e) {
         console.log("Error using Vault API:", e.message);
